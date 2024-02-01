@@ -815,7 +815,7 @@ div#pv-content-txt code {
   display: none;
   border: 0;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(255, 255, 255, 0.87);
   background: transparent;
   outline: 0;
   width: 160px;
@@ -829,7 +829,7 @@ div#pv-content-txt code {
 }
 
 #search.pending input {
-  color: rgba(0, 0, 0, 0.26);
+  color: rgba(255, 255, 255, 0.26);
 }
 
 #selection-rect {
