@@ -187,13 +187,13 @@ template {
 
 ::-moz-selection {
   color: #fff;
-  background: #ff4081;
+  background: #40ff86;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #ff4081;
+  background: #40ff86;
   text-shadow: none;
 }
 
@@ -241,7 +241,7 @@ textarea {
 }
 
 .raised {
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 10px 0 rgba(255, 255, 255, 0.5);
 }
 
 .popup {
@@ -292,7 +292,7 @@ textarea {
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
   color: #fff;
-  background: #ff4151;
+  background: #40ff86;
   cursor: pointer;
   text-decoration: none;
 }
@@ -357,7 +357,7 @@ textarea {
 }
 
 #cm-overlay .cm-entry:hover {
-  color: #ff4151;
+  color: #40ff86;
   background: rgba(0, 0, 0, 0.03);
 }
 
@@ -410,7 +410,7 @@ textarea {
 #crumbbar a:hover,
 #crumbbar a:active:hover,
 #crumbbar a:visited:hover {
-  color: #ff4151;
+  color: #40ff86;
 }
 
 #crumbbar a:focus,
@@ -468,7 +468,7 @@ textarea {
 #content-footer a:active,
 #content-header a:visited,
 #content-footer a:visited {
-  color: #ff4151;
+  color: #40ff86;
   text-decoration: none;
   cursor: pointer;
 }
@@ -479,7 +479,7 @@ textarea {
 #content-footer a:active:hover,
 #content-header a:visited:hover,
 #content-footer a:visited:hover {
-  color: #212121;
+  color: #ffffff;
 }
 
 #content-header h1,
@@ -626,7 +626,7 @@ textarea {
 #pv-content-txt a,
 #pv-content-txt a:active,
 #pv-content-txt a:visited {
-  color: #ff4151;
+  color: #40ff86;
   text-decoration: none;
   cursor: pointer;
 }
@@ -634,7 +634,7 @@ textarea {
 #pv-content-txt a:hover,
 #pv-content-txt a:active:hover,
 #pv-content-txt a:visited:hover {
-  color: #bf616a;
+  color: #489d67;
 }
 
 pre#pv-content-txt code {
@@ -885,7 +885,7 @@ html.drag-select * #view .item:hover {
 #view .item.selected:not(.selecting),
 #view .item.selecting:not(.selected) {
   color: #fff;
-  background: #ff4151;
+  background: #40ff86;
 }
 
 #view .item.selected:not(.selecting) .selector,
@@ -897,7 +897,7 @@ html.drag-select * #view .item:hover {
 #view .item.selected:not(.selecting):hover,
 #view .item.selecting:not(.selected):hover {
   color: #fff;
-  background: #ff4151;
+  background: #40ff86;
 }
 
 #view .no-match {
@@ -932,7 +932,7 @@ html.drag-select * #view .item:hover {
 #tree a:hover,
 #tree a:active:hover,
 #tree a.visited:hover {
-  color: #ff4151;
+  color: #40ff86;
 }
 
 #tree .active > a {
@@ -1029,7 +1029,7 @@ html.drag-select * #view .item:hover {
 }
 
 #root.info #header a:hover {
-  color: #ff4151;
+  color: #40ff86;
 }
 
 #root.info #support {
@@ -1070,7 +1070,7 @@ html.drag-select * #view .item:hover {
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
   color: #fff;
-  background: #ff4151;
+  background: #40ff86;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
@@ -1238,7 +1238,7 @@ html.drag-select * #view .item:hover {
 #fallback-hints a:hover,
 #fallback-hints a:active:hover,
 #fallback-hints a:visited:hover {
-  color: #ff4151;
+  color: #40ff86;
 }
 
 #fallback-hints .backlink {
@@ -1249,7 +1249,7 @@ html.drag-select * #view .item:hover {
 #fallback-hints .noBrowserMsg {
   display: none;
   margin: 0 16px;
-  color: #f44336;
+  color: #40ff86;
 }
 
 html.no-js #root,
@@ -1319,7 +1319,7 @@ html.no-browser .noBrowserMsg {
 #root,
 input,
 select {
-  font-family: "Ubuntu", "Roboto", "Helvetica", "Arial", "sans-serif";
+  font-family: "Manrope", "Ubuntu", "Roboto", "Helvetica", "Arial", "sans-serif";
   font-size: 13px;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
@@ -1364,7 +1364,7 @@ select {
 }
 
 #sidebar .button.active {
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(255, 255, 255, 0.03);
   box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -1593,7 +1593,7 @@ select {
 }
 
 #backlink:hover {
-  color: #ff4151;
+  color: #40ff86;
   background: rgba(0, 0, 0, 0.03);
 }
 
@@ -1632,7 +1632,7 @@ select {
 #view.view-details .header .date:hover,
 #view.view-details .header .size:hover {
   opacity: 1;
-  color: #ff4151;
+  color: #40ff86;
 }
 
 #view.view-details .header .sort {
@@ -1861,7 +1861,7 @@ select {
 }
 
 #view .item:hover {
-  color: #ff4151;
+  color: #40ff86;
   background: #fafafa;
 }
 
@@ -2056,9 +2056,9 @@ audio::-webkit-media-controls-time-remaining-display {
 /*Selection*/
 ::selection {
   color: #fff;
-  background-color: #ff4151;
+  background-color: #40ff86;
 }
 ::-moz-selection {
   color: #fff;
-  background-color: #ff4151;
+  background-color: #40ff86;
 }
