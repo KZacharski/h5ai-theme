@@ -7,10 +7,12 @@
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  background-color: #0F111A;
 }
 
 body {
   margin: 0;
+  background-color: #0F111A;
 }
 
 main {
@@ -1312,7 +1314,7 @@ html.no-browser .noBrowserMsg {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: #fff;
+  background: #0F111A;
   line-height: 1.4;
 }
 
